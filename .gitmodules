@@ -1,0 +1,3 @@
+[submodule "VanillaJS"]
+	path = VanillaJS
+	url = https://github.com/Serzhul/VanillaJS
