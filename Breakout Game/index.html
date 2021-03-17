@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Breakout</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Breakout</h1>
+        <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+        <div id="rules" class="rules">
+            <h2>How to Play:</h2>
+            <p>
+                User your right and left keys to move the paddle to bounce the
+                ball up and break the blocks
+            </p>
+            <p>If you miss the ball, your score and the blocks will reset</p>
+            <button id="close-btn" class="btn">Close</button>
+        </div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+<!-- What Am I gonna do  
+     1. Create canvas context
+     2. Create and draw ball
+     3. Create and draw paddle
+     4. Create bricks
+     5. Draw score
+     6. Add Update() - Animate - requestAnimationFrame(cb)
+     7. Move paddle
+     8. Keyboard Event handlers to move paddle
+     9. Move ball
+     10. Add wall bounderies
+     11. Increase Scores when the bricks break
+     12. Lose - redrwa bricks, reset score
+-->
