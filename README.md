@@ -2,7 +2,7 @@
 The Projects with Vanilla JavaScript
 
 **LIST**
-- 1.Form Validator
+- 1. Form Validator
 - 2. Movie Seat Booking
 - 3. Exchange Rate Calculator
 - 4. DOM Array Methods
